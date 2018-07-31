@@ -8,7 +8,7 @@ describe('pancake methods', () => {
 
 describe('waffle methods', () => {
   it('returns a string', () => {
-    expect(typeof crispy.waffle()).toEqual('string);
+    expect(typeof crispy.waffle()).toEqual('string');
   });
 });
 
