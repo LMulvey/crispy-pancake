@@ -1,8 +1,7 @@
-const describePancake = () => 'That pancake is crispy.';
-const describeWaffle = () => 'That waffle is crispy.';
+const describe = item => `That ${item} is crispy.`;
 
 module.exports = {
-  pancake: describePancake,
-  waffle: describeWaffle
+  pancake: () =>  describe('pancake'),
+  waffle: () => describe('waffle')
 };
 
